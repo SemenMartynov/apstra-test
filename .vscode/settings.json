@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "/home/smart/.local/share/virtualenvs/apstra-8DpCfJd-/bin/python",
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py",
+        "Pipfole.lock"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylamaArgs": [
+        "--ignore=E501"
+    ],
+    "python.linting.banditEnabled": true,
+    "python.linting.mypyEnabled": true
+}
